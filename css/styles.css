@@ -97,15 +97,15 @@ gap: 40px;
     color: #404bbf;
 }
 
-.header-menu-link:hover::after {
-    width: 48px;
+.header-menu-item li:first-child a::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
     height: 4px;
-    content: "";
-    display: block;
-    align-items: center;
-    justify-content: center;
+    background-color: #404bbf;
     border-radius: 2px;
-    background: var(--OCEAN, #404BBF);
 }
 
 .header-menu-link:active {
@@ -113,6 +113,21 @@ gap: 40px;
 }
 
 .header-menu-link:focus {
+    color: #404bbf;
+}
+
+.header-menu-item li:first-child a {
+    color: #404bbf;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-menu-item li:nth-child(2) a,
+.header-contacts li a {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-menu-item li:nth-child(2) a {
     color: #404bbf;
 }
 
@@ -132,6 +147,10 @@ gap: 40px;
 
 .header-contacts:hover, .header-contacts:focus {
     color: #404BBF;
+}
+
+.header-contacts li:nth-child(2) a {
+    color: #404bbf;
 }
 
 .address {
