@@ -181,6 +181,7 @@ gap: 40px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 1440px;
     padding: 188px 0;
 }
 
@@ -219,11 +220,7 @@ gap: 40px;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-button-service:hover {
-    background-color: #404BBF;
-}
-
-
+.hero-button-service:hover,
 .hero-button-service:focus {
     background-color: #404BBF;
 }
