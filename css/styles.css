@@ -366,14 +366,9 @@ gap: 40px;
     justify-content: center;
 }
 
-.icons-link:hover {
+.icons-link:hover, .icons-link:focus {
     background-color: #404bbf;
 }
-
-.icons-link:focus {
-    background-color: #404bbf;
-}
-
 
 .icon-items {
     padding: 32px 0;
