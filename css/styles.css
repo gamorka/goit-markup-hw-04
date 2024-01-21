@@ -516,9 +516,12 @@ gap: 40px;
 /*--------------------*/
 
 /*-----FOOTER-----*/
-.content-wrapper {
+
+.container {
     display: flex;
     align-items: baseline;
+}
+.content-wrapper {
     margin-right: 120px;
 }
 
@@ -557,8 +560,6 @@ gap: 40px;
 }
 
 .social-container {
-    display: flex;
-    align-items: baseline;
 }
 
 .footer-style {
