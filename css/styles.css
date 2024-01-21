@@ -357,7 +357,7 @@ gap: 40px;
 }
 
 .icon-items {
-
+    padding: 32px 0;
 }
 
 .members-list-icon {
@@ -519,6 +519,7 @@ gap: 40px;
 .content-wrapper {
     display: flex;
     align-items: baseline;
+    margin-right: 120px;
 }
 
 .footer-logo {
@@ -555,6 +556,11 @@ gap: 40px;
     max-width: 264px;
 }
 
+.social-container {
+    display: flex;
+    align-items: baseline;
+}
+
 .footer-style {
     background: var(--NAVY-BLUE, #2E2F42);
     padding: 100px 0;
@@ -574,7 +580,7 @@ gap: 40px;
     gap: 16px;
 }
 
-.members-list-icon {
+.footer-list-icon {
     width: 40px;
     height: 40px;
 }
@@ -597,9 +603,10 @@ gap: 40px;
 
 .social-icon {
     fill: var(--WHITE, #f4f4fd);
+    gap: 16px;
 }
 
-.icon-paragraph{
+.social-paragraph{
     color: var(--WHITE, #FFF);
     font-family: Roboto;
     font-size: 16px;
