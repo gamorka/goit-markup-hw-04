@@ -96,11 +96,10 @@ gap: 40px;
     width: 100%;
     position: absolute;
     left: 0;
-    color: #404bbf;
+    background-color: #404bbf;
     bottom: -1px;
     height: 4px;
     border-radius: 2px;
-    background-color: #404bbf;
 }
 
 .header-menu-link:active {
